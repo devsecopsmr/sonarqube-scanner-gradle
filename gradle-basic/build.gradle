@@ -10,9 +10,10 @@ version = '1.0'
 
 sonar {
     properties {
-        property('sonar.projectName', 'Example of SonarQube Scanner for Gradle Usage')
-        property("sonar.projectKey", "sonarqube-scanner-gradle")
+        property('sonar.projectName', 'gradle-project2')
+        property("sonar.projectKey", "sgradle-project2")
         property("sonar.sources", "src/main")
+        property("sonar.host.url", "http://localhost:9000")
         property "sonar.tests", "src/test"
     }
 }
